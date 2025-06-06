@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder - Pipoca Gourmet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image.png" alt="Wonder Logo" class="logo-img">
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><button class="cart-btn"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Descubra o Sabor da<br>Felicidade</h1>
+                <p>Pipoca gourmet artesanal feita com amor e ingredientes selecionados</p>
+                <a href="https://wa.me/+5521979830852?text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pipoca."><button class="cta-button">Peça Agora</button></a>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-grid">
+                <div class="produto-card" data-aos="fade-up">
+                    <div class="produto-img" style="background-color: #f1d3a2"></div>
+                    <div class="produto-info">
+                        <h3>Leite Ninho</h3>
+                        <p>Nossa pipoca mais popular, coberta com leite ninho e chocolate branco</p>
+                        <span class="preco">R$ 25,90</span>
+                        <div class="produto-actions">
+                            <div class="quantidade">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                            <button class="add-to-cart">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produto-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="produto-img" style="background-color: #8B4513"></div>
+                    <div class="produto-info">
+                        <h3>Chocolate</h3>
+                        <p>Deliciosa combinação com chocolate premium</p>
+                        <span class="preco">R$ 28,90</span>
+                        <div class="produto-actions">
+                            <div class="quantidade">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                            <button class="add-to-cart">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produto-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="produto-img" style="background-color: #f8e40a"></div>
+                    <div class="produto-info">
+                        <h3>Salgada</h3>
+                        <p>A tradicional que já mora no seu coração</p>
+                        <span class="preco">R$ 32,90</span>
+                        <div class="produto-actions">
+                            <div class="quantidade">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                            <button class="add-to-cart">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="sobre-content">
+                <h2>Nossa História</h2>
+                <p>A Wonder nasceu da paixão por criar momentos especiais através de sabores únicos. Cada pipoca é preparada artesanalmente, usando ingredientes selecionados e muito amor.</p>
+                <div class="destaques">
+                    <div class="destaque-item">
+                        <i class="fas fa-heart"></i>
+                        <h3>Feito com Amor</h3>
+                        <p>Receitas exclusivas</p>
+                    </div>
+                    <div class="destaque-item">
+                        <i class="fas fa-truck"></i>
+                        <h3>Entrega Rápida</h3>
+                        <p>Para toda região de Guaratiba</p>
+                    </div>
+                    <div class="destaque-item">
+                        <i class="fas fa-star"></i>
+                        <h3>Qualidade</h3>
+                        <p>Ingredientes premium</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="newsletter-content">
+                <h2>Fique por Dentro!</h2>
+                <p>Cadastre-se para receber novidades e promoções exclusivas</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p><i class="fas fa-phone"></i> (21) 97983-0852</p>
+                <p><i class="fas fa-envelope"></i> kevinpotengy@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/kevinpotengy?utm_source=ig_web_button_share_sheet&igsh=czRucHR1OXh1bXM0" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Horário</h3>
+                <p>Segunda a Sábado</p>
+                <p>10h às 22h</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Wonder. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Seu Carrinho</h3>
+                <button class="close-cart">&times;</button>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price">R$ 0,00</span>
+                </div>
+                <button class="checkout-btn">Finalizar Pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
